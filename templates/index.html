@@ -1,0 +1,51 @@
+<html>
+<head>
+
+    <title>CRUD Application</title>
+
+    <link href="{{url_for('static', filename='css/bootstrap.min.css')}}" rel="stylesheet" >
+    <link rel="shortcut icon" href="{{url_for('static', filename = 'shortcut_icon.png') }}">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="well text-center">
+            <h1>Python Flask CRUD Web Application Development </h1>
+        </div>
+       
+    <div class="container">
+        <div class="row">
+            <div class="col md-12">
+                <h2>Student List <button type="button" class="btn btn-success float-end" data-toggle="modal" data-target="#mymodal">Add Student Data </button> </h2>
+
+                <table class="table table-striped">
+                    <tr>
+                        <th>Serial</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Action</th>
+                    </tr>
+
+                    <tr>
+                        <td>01</td>
+                        <td>Parwiz</td>
+                        <td>par@gmail.com</td>
+                        <td>043849384934</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+        <div class="well">
+            <h3>Website: www.parwizforogh.com
+                <span class="float-end">www.facebook.com</span>
+            </h3>
+        </div>
+    </div>
+</body>
+
+</html>
